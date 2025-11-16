@@ -1,0 +1,12 @@
+name = "decisionera-ai"
+main = "index.js"
+compatibility_date = "2024-01-01"
+
+workers_dev = true
+
+# No assets directory — your worker only handles API requests
+assets = false
+
+[vars]
+# OPENROUTER_KEY will be injected via: wrangler secret put OPENROUTER_KEY
+
